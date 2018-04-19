@@ -1,4 +1,5 @@
 This is a repo copied from [StrapUI](http://strapui.com/) to learn angularjs as quickly as possible
+additions are made on this learning
 
 # Ani Theme rewritten in Angular2 and Bootstrap 4
 

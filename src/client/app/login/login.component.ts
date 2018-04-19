@@ -14,8 +14,12 @@ import { RANTS } from '../mock-rants';
 })
 
 export class LoginComponent {
-number = 6;
-rants = RANTS;
+number= 6;
+rants= RANTS;
+
+onSelect(rant:Rants){
+	this.rants.likes = rant.likes++;
+}
 }
 
 // angular.module('controllerAsExample', []).controller('SettingsController1', function($scope) {

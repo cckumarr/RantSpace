@@ -28,7 +28,7 @@
 								<div class="jumbotronm-b-0">
 										<p>{{rant1.rantMsg}}</p>
 										<!-- <p><a href="javascript:;" class="btn btn-primary btn-sm" role="button">like   <span class="badge badge-light">4</span></a> -->
-										<p><button type="button" class="btn rounded-btn">like <span class="badge badge-light">{{rant1.likes}}</span></button></p>
+										<p><button type="button" class="btn rounded-btn" (click)='onSelect(rant1)'>like <span class="badge badge-light">{{rant1.likes}}</span></button></p>
 								</div>
 					</div>
 				</div>
@@ -38,19 +38,5 @@
 </ul>
 
 </div>
-
-<!-- <body ng-app="controllerAsExample">
-	<div id="ctrl-as-exmpl" ng-controller="SettingsController1">
-
-	<ul>
-		<li ng-repeat="contact in contacts">
-			<input type="text" ng-model="contact.number" />
-		</li>
-		<li>
-			<button type="button" ng-click="addContact()">add</button>
-		</li>
-	</ul>
-	</div>
-</body> -->
 
 </html>
