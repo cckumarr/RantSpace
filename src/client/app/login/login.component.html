@@ -7,10 +7,10 @@
 			<form role="form">
 				<div class="form-content">
 					<div class="form-group">
-						<input type="text" class="form-control input-underline input-lg" id="" placeholder="my rant">
+						<input type="text" #rantinput class="form-control input-underline input-lg" id="" placeholder="my rant">
 					</div>
 				</div>
-				<a class="btn rounded-btn" [routerLink]="['dashboard', 'home']"> Rant </a>
+				<a class="btn rounded-btn" (click)='onRant(rantinput.value)'> Rant </a>
 				<!-- <a class="btn rounded-btn" (click)='addText()'> Rant </a> -->
 			</form>
 		</div>

@@ -20,6 +20,14 @@ rants= RANTS;
 onSelect(rant:Rants){
 	this.rants.likes = rant.likes++;
 }
+
+onRant(rantInput:string){
+	this.rants.push({
+		id : 654,
+		likes : 0,
+		rantMsg : rantInput
+	})
+}
 }
 
 // angular.module('controllerAsExample', []).controller('SettingsController1', function($scope) {
