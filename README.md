@@ -1,3 +1,5 @@
+This is a repo copied from [StrapUI](http://strapui.com/) to learn angularjs as quickly as possible
+
 # Ani Theme rewritten in Angular2 and Bootstrap 4
 
 This project is a part of the famous ANI Theme [Ani Theme v2.0](http://www.strapui.com/themes/ani-angular-2-bootstrap-4-theme/) to Angular2 Theme.
@@ -47,7 +49,7 @@ $ cd `project-directory`
 ```
 
 ```sh
-$ npm install 
+$ npm install
 ```
 
 ```sh
