@@ -86,16 +86,27 @@
 		padding: 40px 0;
 	}
 
+	.card {
+		width: 600px;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 1px; /* Added */
+	}
+
 	.col-md-12 {
-		align-self: center;
-		padding: 40px 0;
+		padding: 4px 0;
 	}
 
 	.card-block{
 		background: $brand-primary;
 	}
 	.jumbotronm-b-0{
+		text-align: center;
 		background: $brand-primary;
+	}
+
+	ul {
+  	list-style-type: none;
 	}
 
 }
